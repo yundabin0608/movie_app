@@ -12,3 +12,13 @@ react application은 한번에 하나의 component만 렌더링 할 수 있으�
 
 map : array의 각 item 에서 function을 실행하는 array를 가지는 JS function이며 그 function의 result를 갖는 array를 줌
 파이썬에서 쓰는거랑도 비슷한 거 가튼데 map(공통적으로 적용하고 싶은 함수) 쓰면    배열에 함수 적용한 결과들(배열)을 가질 수 있는거징
+
+class component와 function component는 차이 존재
+function은 return이 존재, class는 리액트가 자동으로 render method를 받아와 실행 => 화면에 표시
+
+매 순간 setState를 호출할때마다 react는 새로운 state와 함께 render function 호출
+
+React.component가 가진 method 
+ : life cycle method, render method, mounting&updating&unmounting 
+
+- component가 mount될때, component가 screen에 나타날때, component가 내 website에 갈때 =>constructor 호출 그 후 render(), componentDidount()
