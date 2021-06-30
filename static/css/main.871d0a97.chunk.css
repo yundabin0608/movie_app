@@ -1,0 +1,2 @@
+<!--text가 같아보이게 하는게 포인트-->*{box-sizing:border-box}body{margin:0;padding:0;background-color:#eff3f7;height:100%}#potato,.container,.loader,body,html{height:100%;display:flex;justify-content:center}.loader{width:100%;align-items:center;font-weight:300}.movies{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;padding:70px 50px 50px;width:80%}
+/*# sourceMappingURL=main.871d0a97.chunk.css.map */
